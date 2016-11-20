@@ -1,0 +1,125 @@
+
+/*all*/
+
+*{
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
+	box-sizing:border-box;
+	margin: 10px;
+}
+
+img{
+	width: 100%;
+}
+
+
+
+a{
+	text-decoration: none;
+	color:#f9d483;
+}
+
+h1 a{
+	color:#f9d483;
+	text-decoration: none;
+	font-size: 40px;
+
+}
+
+h3{
+	color:#d2d2d2;
+	font-size: 30px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+
+
+header h1, h2{
+	float:left;
+	display:inline-block;
+}
+
+nav li{
+	display:inline;
+	float:left;
+	display: block;
+	border:black solid 3px;
+	background-color: #acb0b7;
+	list-style: none;
+	border: none;
+	padding: 10px;
+	margin: 1px;
+	display:inline-block;
+	width: 16%;
+	text-align: center;
+	}
+nav{
+	clear:left;
+}
+nav a{
+	color:white;
+	padding-bottom: 5px;
+	list-style: none;
+
+
+}
+
+
+h2 a{
+	color:black;
+	margin-top: 0px;
+}
+
+/*blog posts*/
+article{
+	float:left;
+	width: 60%;
+}
+
+article h4{
+	padding-bottom: 20px;
+	border-bottom: 1px #d2d2d2 solid;
+}
+.blog p::first-letter {
+   float: left; font-size: 75px; line-height: 60px; padding-top: 4px; padding-right: 8px; padding-left: 3px;color:#d2d2d2;
+}
+
+.module, .modulead{
+
+	padding-bottom: 20px;
+	border-bottom: 1px #d2d2d2 solid;
+}
+
+.blog~h4{
+	text-align: right;
+	float: left;
+}
+
+/*aside bar*/
+
+aside{
+	float: left;
+	width:35%;
+	margin: 15px;
+	margin-top: 50px;
+}
+aside a{
+	text-align: right;
+}
+.module h4
+{
+	text-align: left;
+	font-size: 20px;
+}
+
+h4 a{
+	color:#f9d483;
+		font-weight: bold;
+}
+
+footer{
+	color:#d2d2d2;
+	margin-top: 20px;
+	clear:both;
+}

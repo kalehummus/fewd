@@ -1,0 +1,61 @@
+body {
+  font-family: arial, verdana, sans-serif;
+}
+
+
+/*---------------------------------- 
+  Together
+------------------------------------*/
+
+/*Give the h1 a red background, some padding, and a black border.*/
+
+h1{
+	background-color: red;
+	padding: 20px;
+	border-color: black;
+	border-radius: 10px;
+	border-style: solid;
+
+}
+
+/*Give every p a blue background, white text, some padding, and a black border. */
+
+p{
+	background-color: skyblue;
+	color: white;
+	padding:30px;
+	border: dotted black 5px;
+}
+
+/*Give every code element a white background, black text, and a thin border.*/
+
+*{
+	background-color: white;
+	color:black;
+	border:black 2px solid;
+}
+
+/*---------------------------------- 
+  Now you try!
+------------------------------------*/
+
+/* Give every h2 a yellow background, black text, some padding, and a thick border */
+
+h2{
+	background-color: yellow;
+	color:black;
+	padding:10px 2px 3px 40px;
+	border: black 30px solid;
+}
+
+/*Give every li a green background, white text, some padding, and a thin red border.*/
+li{
+	background-color:#44cc92; ;
+	color: white;
+	padding:4px;
+	border: red 2px solid;
+}
+
+
+
+
