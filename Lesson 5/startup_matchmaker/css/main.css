@@ -26,18 +26,101 @@
     Grey/Black(text color) -
     Yellow -
     Red -
+
+    font-family: 'Oswald', sans-serif;  
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Merriweather', serif;
 */
 
 
 /* Global
    ================================================================ */
 body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  margin: 0;
   /* Set some defaults! font-family, font-size, color, etc. */
 }
 
 /* Text Styles (a, a:hover, a:visited, a:active, p, h1, h2, h3, h4, etc.)
    ================================================================ */
+header{
+  width: 100%;
+  background-color: #3c3a3a;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.banner{
+    background-image: url("../images/coworking.jpg");
+    background-color: #cccccc;
+    background-size: 100%;
+
+}
+.blurb{
+  width: 40%;
+  height:50%;
+  background-color: white;
+  filter: alpha(opacity=60);
+
+  padding:20px;
+  margin:20px;
+  border:solid 1px black;
+  display:inline-block;
+  margin-left: 50%;
+    
+}
+
+.info h3{ 
+  font-family: 'Merriweather', serif; 
+}
+
+.button{
+   text-transform: uppercase;
+}
+.info{
+  display: inline-block;
+  width: 30%;
+  float: left;
+}
+
+
+.blurb .button{
+  background-color: #ff0121;
+  display: inline-block;
+  padding: 10px 30px 10px 23px;
+  text-align: center;
+  width: 100%;
+  opacity:.8;
+
+}
+section{
+  clear:left;
+}
+.info .button{
+  background-color: #d4e1db;
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;     
+  text-align: center;
+  color: black;
+}
+.info{
+  background-color: white;
+  margin: 20px;
+  display: inline-block;
+  width: 28%;
+}
+.
+h1 a{
+  padding-left: 30px;
+}
+
 a {
+   font-family: 'Oswald', sans-serif; 
+   text-decoration: none;
+   color:white;
   /* Set some default styles for anchors (color, text decoration) */
 }
 
@@ -48,12 +131,61 @@ a {
 /* Header
    ================================================================ */
 
+h1 a{
+  float:left;
+  font-family: 'Merriweather', serif;
+  display: inline-block;
+  width: 40%;
+}
+
+h1{
+
+}
+nav li{
+  float:left;
+  display: inline-block;
+  list-style: none;
+
+}
+.dev a{
+  font-size: 25px;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+.linky a{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  padding: 15px;
+
+}
+
+.tagline{
+  clear:both;
+  display:block;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin: 0;
+  background-color: #d4e1db;
+  border-top: 5px solid #f4d442;
+}
 
 
 /* Footer
    ================================================================ */
 
-
+footer{
+  clear:left;
+  padding:10px;
+  background-color: #3c3a3a;
+  font-size: 20px;
+  color: white;
+}
 
 /* Navigation
    ================================================================ */

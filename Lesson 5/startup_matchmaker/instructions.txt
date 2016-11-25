@@ -6,7 +6,7 @@ You will need to Google:
 
 Fonts Used: 
 * Source Sans Pro
-* Merriweather
+* Merriweatherc
 * Oswald
 
 * See new elements? Like <section>? Look them up to keep growing your tag vocabulary!

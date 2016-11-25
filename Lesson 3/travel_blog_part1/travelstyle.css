@@ -83,8 +83,14 @@ article h4{
 	padding-bottom: 20px;
 	border-bottom: 1px #d2d2d2 solid;
 }
-.blog p::first-letter {
-   float: left; font-size: 75px; line-height: 60px; padding-top: 4px; padding-right: 8px; padding-left: 3px;color:#d2d2d2;
+article p::first-letter {
+   float: left; 
+   font-size: 75px; 
+   line-height: 60px; 
+   padding-top: 4px; 
+   padding-right: 8px; 
+   padding-left: 3px;
+   color:#d2d2d2;
 }
 
 .module, .modulead{
@@ -102,7 +108,7 @@ article h4{
 
 aside{
 	float: left;
-	width:35%;
+	width:30%;
 	margin: 15px;
 	margin-top: 50px;
 }
