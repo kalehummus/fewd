@@ -1,6 +1,8 @@
 /* ==========================================================================
    Global Overrides
   ========================================================================== */
+
+
 * {
   box-sizing: border-box;
 /*   border: 1px solid red; */
@@ -12,6 +14,12 @@
   content: "";
 }
 
+a {
+   font-family: 'Oswald', sans-serif; 
+   text-decoration: none;
+   color:white;
+  /* Set some default styles for anchors (color, text decoration) */
+}
 /* ==========================================================================
    Author's custom styles
   ========================================================================== */
@@ -39,126 +47,77 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 20px;
   margin: 0;
-  /* Set some defaults! font-family, font-size, color, etc. */
-}
-
-/* Text Styles (a, a:hover, a:visited, a:active, p, h1, h2, h3, h4, etc.)
-   ================================================================ */
-header{
-  width: 100%;
   background-color: #3c3a3a;
-  margin: 0;
-  padding-left: 20px;
 }
 
-.banner{
-    background-image: url("../images/coworking.jpg");
-    background-color: #cccccc;
-    background-size: 100%;
-
-}
-.blurb{
-  width: 40%;
-  height:50%;
-  background-color: white;
-  filter: alpha(opacity=60);
-
-  padding:20px;
-  margin:20px;
-  border:solid 1px black;
-  display:inline-block;
-  margin-left: 50%;
-    
-}
-
-.info h3{ 
-  font-family: 'Merriweather', serif; 
-}
 
 .button{
    text-transform: uppercase;
 }
-.info{
-  display: inline-block;
-  width: 30%;
-  float: left;
-}
 
-
-.blurb .button{
-  background-color: #ff0121;
-  display: inline-block;
-  padding: 10px 30px 10px 23px;
-  text-align: center;
+/* Text Styles (a, a:hover, a:visited, a:active, p, h1, h2, h3, h4, etc.)
+   ================================================================ */
+/*header{
   width: 100%;
-  opacity:.8;
-
-}
-section{
-  clear:left;
-}
-.info .button{
-  background-color: #d4e1db;
-  display: inline-block;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: 100%;     
-  text-align: center;
-  color: black;
-}
-.info{
-  background-color: white;
-  margin: 20px;
-  display: inline-block;
-  width: 28%;
-}
-.
-h1 a{
-  padding-left: 30px;
-}
-
-a {
-   font-family: 'Oswald', sans-serif; 
-   text-decoration: none;
-   color:white;
-  /* Set some default styles for anchors (color, text decoration) */
-}
-
-/* Layout (columns, floats, etc.)
-   ================================================================ */
+  background-color: #3c3a3a;
+  margin: 0;
+  padding-left: 20px;
+}*/
 
 
-/* Header
-   ================================================================ */
+/*NAVIGATION BAR AND HEADER*/
+
+nav{
+  position: relative;
+}
+
+ul{
+  margin:0;
+}
+
+li{
+display:inline;
+padding:10px;
+
+}
+header{
+  position: relative;
+  height: 63px;
+}
 
 h1 a{
-  float:left;
   font-family: 'Merriweather', serif;
-  display: inline-block;
-  width: 40%;
+  display: inline;
+  /*padding-left: 30px;*/
+  font-size: 30px;
+  display: inline;
+  position: absolute; 
+  left:30px;
+  bottom: 13px;
 }
 
 h1{
-
-}
-nav li{
-  float:left;
   display: inline-block;
-  list-style: none;
+}
 
+nav{
+  position: absolute;
+  bottom: 16px;
+  right:10px;
 }
 .dev a{
-  font-size: 25px;
+  font-size: 20px;
   text-transform: uppercase;
-  padding: 15px;
 }
+
 
 .linky a{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 20px;
-  padding: 15px;
-
+/*  padding: 15px;*/
 }
+
+/*TWO HEADS SECTION*/
 
 .tagline{
   clear:both;
@@ -175,9 +134,95 @@ nav li{
   border-top: 5px solid #f4d442;
 }
 
+/*MEET YOUR MATCH SECTION*/
 
-/* Footer
-   ================================================================ */
+h2{
+  margin:0px;
+}
+
+
+
+.banner{
+    height: 400px;
+    background-image: url("../images/coworking.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+
+}
+.blurb{
+  width: 40%;
+  height: 300px;
+  background-color: rgba(255,255,255,0.5);
+  padding:20px;
+  padding-left: 50px;
+  padding-right: 50px;
+/*  margin:20px;*/
+  border:solid 1px black;
+  display:inline-block;
+  right: 50px;
+  position: absolute;
+  right: 30px;
+  top: 50px;
+}
+
+section{
+  clear:left;
+}
+
+.blurb .button{
+  background-color: #ff0121;
+  display: inline-block;
+  padding: 10px 30px 10px 23px;
+  text-align: center;
+  width: 100%;
+}
+
+
+
+/*START YOUR SEARCH/SIGN UP*/
+
+
+.boxes{
+  background-color: white;
+  padding-left: 20px;
+}
+
+
+.info h3{ 
+  font-family: 'Merriweather', serif; 
+}
+
+.info .button{
+  background-color: #d4e1db;
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;     
+  text-align: center;
+  color: black;
+}
+
+
+.info{
+  display: inline-block;
+  width: 30%;
+  float: left;
+}
+
+.info{
+  background-color: white;
+  margin: 20px;
+  display: inline-block;
+  width: 28%;
+}
+
+/*FOOTER*/
+
+
+
 
 footer{
   clear:left;
@@ -187,10 +232,14 @@ footer{
   color: white;
 }
 
+footer p{
+  margin:0px;
+}
+
 /* Navigation
    ================================================================ */
 
 
 
 /* Buttons
-   ================================================================ */
+   ================================================================ 

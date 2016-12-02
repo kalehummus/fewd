@@ -1,0 +1,9 @@
+.float li{
+	float: left;
+	padding-right: 20px;
+}
+
+.inline-block li{
+	display: inline-block;
+	width: 6%;
+}
