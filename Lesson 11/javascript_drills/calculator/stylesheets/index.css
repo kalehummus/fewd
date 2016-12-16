@@ -1,0 +1,30 @@
+body{
+	text-align: center;
+}
+
+ul{
+	-webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-padding-start: 0px;
+}
+
+ul li{
+	list-style: none;
+	width: 5%;
+	padding: 10px;
+	background-color: gray;
+	display: inline-block;
+}
+
+input{
+	height: 50px;
+	width: 150px;
+	font-size: 120%;
+}
+
+div{
+	width: 25%;
+	font-size: 130%;
+	margin: auto;
+	background-color: #D3D3D3;
+}
