@@ -1,0 +1,25 @@
+/*------------------------------------------
+  SETUP                   
+/------------------------------------------*/
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  padding: 30px;
+}
+
+button {
+  transition:all .5s ease-in 2s;
+  outline: none;
+  background-color: #F78FA7;
+  padding: 20px;
+  border-radius: 4px;
+  border:none;
+  width: 10%;
+}
+
+/*need to specify origin of properties in order for transition timings to work */
+
+button:hover {
+width: 100%;
+}

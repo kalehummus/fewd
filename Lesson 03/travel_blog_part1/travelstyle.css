@@ -45,7 +45,6 @@ header h1, h2{
 nav li{
 	display:inline;
 	float:left;
-	display: block;
 	border:black solid 3px;
 	background-color: #acb0b7;
 	list-style: none;
