@@ -1,0 +1,87 @@
+/* ==========================================================================
+   Global Overrides
+  ========================================================================== */
+* {
+  box-sizing: border-box;
+
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/* ==========================================================================
+   Author's custom styles
+  ========================================================================== */
+
+nav{
+	border: black 1px solid;
+ 	margin-left: 30px;
+ 	margin-right: 30px;
+}
+
+.top{
+	border: black 1px solid;
+	height: 20px;
+	width: 210px;
+	display: inline-block;
+	float:left;
+	margin-right: 10px;
+}
+
+#middle{
+	height: 500px;
+	border: black 1px solid;
+ 	margin-left: 30px;
+ 	margin-right: 30px;
+}
+.bottom{
+	border: black 1px solid;
+	height: 50px;
+	width: 230px;
+	display: inline-block;
+	float:left;
+	margin-right: 10px;
+}
+
+#bottomcontainer{
+ 	margin-left: 30px;
+ 	margin-right: 30px;
+}
+
+footer{
+	border: black 1px solid;
+	margin-left: 30px;
+ 	margin-right: 30px;
+}
+.foot{
+	border: black 1px solid;
+	height: 40px;
+	width: 290px;
+	display: inline-block;
+	float:left;
+	margin-right: 10px;
+}
+/*Mobile - learn mediaquery later*/
+
+
+
+.top{
+	border: black 1px solid;
+	height: 20px;
+	width: 210px;
+	display: none;
+	float:left;
+	margin-right: 10px;
+}
+
+.bottom{
+	display:block;
+	width: 100%;
+	margin: 0;
+}
+#bottomcontainer{
+	margin: 0;
+}
